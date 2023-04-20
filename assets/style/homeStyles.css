@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+}
+
+.menu {
+    background-color: #708cad;
+}
+
+.subtitle {
+    color: #1a3154;
+}
+
+.text__section {
+    padding-top: 30px;
+}
