@@ -3,7 +3,7 @@
  * @param {String} client_id Your spotify unique client id
  * @param {String} client_secret Your spotify unique client secret
  */
-export const getBearerToken = async (client_id, client_secret, callback) => {
+export const getBearerToken = async (client_id, client_secret) => {
     if (!client_id) throw new Error(`Client id is missing.`);
     if (!client_secret) throw new Error(`Client secret is missing.`);
 

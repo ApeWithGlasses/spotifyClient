@@ -34,3 +34,15 @@
 .text__section {
     padding-top: 30px;
 }
+
+#songCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.song__card:last-child {
+    grid-column: 1 / 4;
+}
